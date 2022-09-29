@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(247, 122, 122);
+}
+header{
+    color: rgb(194, 130, 255);
+    text-align: center;
+    background: rgb(240, 48, 48);
+}
+nav{
+    background: rgb(38, 243, 38);
+}
+section{
+    background: rgb(137, 36, 253);
+}
+.noticia1{
+    background: rgb(240, 150, 77);
+    width: 30%;
+    float: left;
+}
+.noticia2{
+    background: rgb(23, 0, 155);
+    width: 70%;
+    float: left;
+}
