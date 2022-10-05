@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+}
+@font-face{
+    font-family: 'mi fuente';
+    src: url('../fonst/Gloomy\ Things.ttf');
+}
+#contenedor{
+    background: rgb(248, 248, 109);
+    width: 900px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-family: 'mi fuente', Arial, monospace;
+    font-size: 5em;
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: inherit;
+}
+nav li{
+    display: inline-block;
+    width: 10%;
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+}
+nav li:hover{
+    background: rgb(100, 235, 118);
+    color: rgb(162, 115, 248);
+}
+
+.alfombra{
+    background: url('../imagenes/fondo.jpg') fixed no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
