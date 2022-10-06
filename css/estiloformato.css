@@ -14,6 +14,9 @@ h1{
     text-align: center;
     font-family: 'mi fuente', Arial, monospace;
     font-size: 5em;
+    color: rgb(255, 0, 0);
+    text-shadow: 3px 5px 5px rgb(0, 0, 0);
+    background: rgba(114, 0, 245, 0.5);
 }
 nav a{
     text-decoration: none;
@@ -33,9 +36,32 @@ nav li:hover{
     color: rgb(162, 115, 248);
 }
 
-.alfombra{
-    background: url('../imagenes/fondo.jpg') fixed no-repeat;
+header{
+    clear: both;
+    background: url('../imagenes/fondo.jpg') no-repeat;
     height: 200px;
     background-size: cover;
     background-position: center;
+}
+.caja1{
+    width: 150px;
+    height: 150px;
+    background: yellow;
+    outline: 3px solid blue;
+    box-shadow: 8px 10px 8px blue;
+    margin: 50px;
+    border-radius: 10px 20px 40px 70px;
+}
+
+#Flex-padre{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#Flex-padre div{
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(104, 245, 198);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
 }
